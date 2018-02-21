@@ -3,18 +3,38 @@
 }
 
 .ui.borderless.menu{
+  background-color: black;
   color: white;
-  background-color: gray;
   border: none;
   box-shadow: none;
+  text-size: .9em;
 }
-.ui.grid{
+.five.wide.photo.column{
+  margin-top: 10px;
   color: red;
   font-size: 11px;
   text-align: center;
 }
 .ui.segment{
+  padding-top: 10px;
   color: red;
   border: none;
   box-shadow: none;
+}
+
+.ui.large.image.item{
+  height: 180px;
+  width: 240px;
+  border-style: solid;
+  border-color: red;
+  border-width: 1px;
+}
+
+.footer-background{
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 0.8em
+
 }
